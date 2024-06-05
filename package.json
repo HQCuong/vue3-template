@@ -1,8 +1,10 @@
 {
   "name": "vue3-simple-template",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "20"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
