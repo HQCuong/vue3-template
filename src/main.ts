@@ -1,5 +1,14 @@
 import { createApp } from 'vue'
-import './style.css'
+import router from '@/router';
+import { i18n } from '@/lang/i18n';
+
 import App from './App.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.use(router);
+app.use(i18n);
+
+router.isReady().then(() => {
+  app.mount('#app');
+});
