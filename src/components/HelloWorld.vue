@@ -1,10 +1,6 @@
 <template lang="pug">
-router-view
+p Hello Cr0ud
 </template>
 
 <script setup lang="ts">
 </script>
-
-<style lang="scss">
-@import '@/scss/app.scss';
-</style>

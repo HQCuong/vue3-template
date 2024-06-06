@@ -2,14 +2,23 @@ import {
   createWebHistory,
   createRouter,
 } from 'vue-router';
-import { BasicLayout } from '@/components';
+import {
+  BasicLayout,
+  HelloWorld,
+} from '@/components';
 
 const routes = [
   {
     path: '/',
-    component: BasicLayout
-  }
-]
+    component: BasicLayout,
+    children: [
+      {
+        path: '',
+        component: HelloWorld,
+      },
+    ],
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),
