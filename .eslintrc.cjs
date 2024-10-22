@@ -18,11 +18,11 @@ module.exports = {
   ],
   ignorePatterns: [
     'dist',
-    '**/lang/*',
     '.eslintrc.*',
+    '**/lang/*',
     '*.d.ts',
     '*.svg',
-    'vite/*.config.ts',
+    '*.config.ts',
   ],
   rules: {
     // === ESLint ===
