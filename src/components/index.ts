@@ -1,3 +1,3 @@
 export * from './layouts';
 
-export { default as HelloWorld } from './HelloWorld.vue';
+export * from './HelloWorld/HelloWorld.vue';
