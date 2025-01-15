@@ -1,3 +1,3 @@
 export * from './layouts';
 
-export * from './HelloWorld/HelloWorld.vue';
+export * from './HelloWorld';
