@@ -1,7 +1,7 @@
 <template lang="pug">
-h1 {{ msg }}
-button(@click="increment") Click Me
-p Clicked {{ count }} times
+  h1 {{ msg }}
+  button(@click="increment") Click Me
+  p Clicked {{ count }} times
 </template>
 
 <script setup lang="ts">
