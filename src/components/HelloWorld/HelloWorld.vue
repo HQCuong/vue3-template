@@ -1,13 +1,19 @@
-<template lang="pug">
-  h1 {{ msg }}
-  button(@click="increment") Click Me
-  p Clicked {{ count }} times
+<template>
+  <h1> {{ msg }} </h1>
+  <button
+    type="button"
+    @click="increment"
+  >
+    Click Me
+  </button>
+  <p> Clicked {{ count }} times </p>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
 
 interface Props {
+  // Line
   msg: string
 }
 

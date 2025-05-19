@@ -24,11 +24,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "vueCompilerOptions": {
-    "plugins": [
-      "@vue/language-plugin-pug"
-    ]
-  },
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
